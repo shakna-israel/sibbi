@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+scheme="$1"
+args="$2"
+for f in tests/*.scm
+do
+  "$scheme" $args "$f"
+done
