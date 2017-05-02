@@ -1,6 +1,6 @@
 addons:
   apt:
     packages:
-    - chicken
+    - chicken-bin
 
 script: ./test csi -script
