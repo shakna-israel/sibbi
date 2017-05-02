@@ -6,6 +6,26 @@ A collection of implementation-agnostic libraries for working with Scheme.
 
 ---
 
+## Goal
+
+You could consider sibbi to be akin to Boost for C++.
+
+That is not, however, the intent.
+
+The intent is to take a fairly good language, hand it the tools we have to reimplement all the time, but not only that.
+
+To extend the language in such a way that it is still as simple, but more powerful in the hands of a team.
+
+To that end, some features:
+
+- [ ] I/O library. Working with native ports is painful.
+- [ ] Algebraic Types. (SRFI-9 gets us halfway).
+- [ ] Type Safety. (Compile-time type contracts should be possible. Because it's compile-time, interacting with un-contracted code should also work fine, if unsafe.)
+- [ ] Web DSLs. (X-Expr, CSS & JS DSLs.)
+- [ ] Modules, packages & build tools. (R7RS finally has it, but I'm stuck with R6RS.)
+
+---
+
 ## Collections
 
 # Strings
