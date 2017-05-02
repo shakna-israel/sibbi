@@ -1,0 +1,6 @@
+addons:
+  apt:
+    packages:
+    - chicken
+
+script: ./test csi -script
