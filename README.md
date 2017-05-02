@@ -1,5 +1,7 @@
 # sibbi
 
+[![Build Status](https://travis-ci.org/shakna-israel/sibbi.svg?branch=master)](https://travis-ci.org/shakna-israel/sibbi)
+
 A collection of implementation-agnostic libraries for working with Scheme.
 
 ---
